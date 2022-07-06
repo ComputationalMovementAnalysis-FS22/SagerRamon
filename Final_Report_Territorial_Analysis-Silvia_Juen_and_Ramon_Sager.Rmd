@@ -4,6 +4,11 @@
 ### Silvia Juen & Ramon Sager, 03.07.2022  
   
   
+```{r, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+  
   
 ## Introduction  
   
@@ -48,6 +53,7 @@ rm(list=ls())
   
 The following libraries were used in the course of this analysis:
 ```{r, warning=F, message=F}
+# devtools::install_github("ComputationalMovementAnalysis/ComputationalMovementAnalysisData")
 library(ComputationalMovementAnalysisData)  # Wild Boar Data 
 library(tidyverse)                          # dplyr, ggplot, etc.
 library(sf)                                 # spatial data operations
